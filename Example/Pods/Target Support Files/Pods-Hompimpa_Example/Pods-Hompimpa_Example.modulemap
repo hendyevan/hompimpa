@@ -1,0 +1,6 @@
+framework module Pods_Hompimpa_Example {
+  umbrella header "Pods-Hompimpa_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

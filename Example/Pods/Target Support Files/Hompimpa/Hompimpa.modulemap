@@ -1,0 +1,6 @@
+framework module Hompimpa {
+  umbrella header "Hompimpa-umbrella.h"
+
+  export *
+  module * { export * }
+}

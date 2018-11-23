@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FF82E8C64D8DBDF004C106C25E53352 /* Hompimpa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C05C17FED14B645234C357B771B71A /* Hompimpa-dummy.m */; };
+		14D2E7A349221C200AB85B70C89B429F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1FA27335B14A400F39FA0B7148E4A4EC /* Pods-Hompimpa_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C19E21408D8366A688E157C66F877B /* Pods-Hompimpa_Example-dummy.m */; };
+		2A546F7ADA9D5EF7889CF9A5C7BD39B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3A785F0180CD62E6EA8D4BC023A64CD3 /* Pods-Hompimpa_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3507E6C9CD37A12770FE3B27E19676DC /* Pods-Hompimpa_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC6B1A42A8AD26D535D3A24DC34D6B6B /* Pods-Hompimpa_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF19200A87E007B485498CC8E05E8C17 /* Pods-Hompimpa_Tests-dummy.m */; };
+		BF71A8EC73F5979DDAE58BCBF85E4E27 /* Hompimpa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8278C069FE69851F8AE7778322D799 /* Hompimpa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE33824834E3223A030E52AEB6236796 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E14F71555E369E58C06836C9C1E38508 /* Pods-Hompimpa_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A40EC9AA167FF800D2FD9D82F5B89EF7 /* Pods-Hompimpa_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3EAD2CE21A7DAC2002A57AD /* Snooze.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EAD2CD21A7DAC2002A57AD /* Snooze.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61D4ECC920BECCE3FAC8265DAF0088EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DD5755F332804257FB6DA5353DF8FB3;
+			remoteInfo = "Pods-Hompimpa_Example";
+		};
+		A568B0B3CB05AA97F9981F5BC554B72C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14721B0D8402E982B0E58249E79DC684;
+			remoteInfo = Hompimpa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0478AD8DBB85E8131C64519531FEBF41 /* Pods-Hompimpa_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Hompimpa_Tests.modulemap"; sourceTree = "<group>"; };
+		0D84205D0269AF0737697FFB895EDF60 /* Hompimpa.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Hompimpa.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1B166F8F5FD0E595DEFB06359F514CC3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DB8B17B4AB723412976F08355993AB3 /* Pods-Hompimpa_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Hompimpa_Example.modulemap"; sourceTree = "<group>"; };
+		1DD91E964B74DC71F21D6E135B7959E7 /* Pods_Hompimpa_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hompimpa_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F492B04E45CD09BB6CAB57113A528B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27B3746BE28837778B6AC274DE3BB672 /* Hompimpa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hompimpa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C48DACE9AF324568E3EEF13719A93E /* Pods-Hompimpa_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hompimpa_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2AE40EA05D64DDA316FEB85CC814659D /* Hompimpa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Hompimpa.modulemap; sourceTree = "<group>"; };
+		2ECF957B7416179BA3E7D73D1A76F55C /* Pods-Hompimpa_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hompimpa_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3507E6C9CD37A12770FE3B27E19676DC /* Pods-Hompimpa_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hompimpa_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3D3723C84EB2EF525C54CD33384D6B83 /* Pods-Hompimpa_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hompimpa_Tests-resources.sh"; sourceTree = "<group>"; };
+		3EBEDD45EE2B3176724731D696D19D56 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		41E63991AAC28196A2789F602A071D7A /* Pods-Hompimpa_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hompimpa_Example-resources.sh"; sourceTree = "<group>"; };
+		52F481191151117597BA8FB649C4A3F6 /* Hompimpa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hompimpa.xcconfig; sourceTree = "<group>"; };
+		5D8278C069FE69851F8AE7778322D799 /* Hompimpa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hompimpa-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6D4D61EF3F18270C49A4B166FBD1FB77 /* Hompimpa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hompimpa-prefix.pch"; sourceTree = "<group>"; };
+		73BC273120A348CEC388D63D4AF02900 /* Pods-Hompimpa_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hompimpa_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7B080AA9AF97DFBE62A32E1362F1E32A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		908DB1CD945D77B8DC2ADCA565ADF755 /* Pods-Hompimpa_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hompimpa_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A40EC9AA167FF800D2FD9D82F5B89EF7 /* Pods-Hompimpa_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hompimpa_Example-umbrella.h"; sourceTree = "<group>"; };
+		A6C05C17FED14B645234C357B771B71A /* Hompimpa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hompimpa-dummy.m"; sourceTree = "<group>"; };
+		A8DD760065C79F28FF72B030BCA69527 /* Pods-Hompimpa_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hompimpa_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AC166EBEEAC51B151896BB57F5440A95 /* Pods-Hompimpa_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hompimpa_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C05B75C69618CA2AF5DCD9C50E136975 /* Pods-Hompimpa_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hompimpa_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CF19200A87E007B485498CC8E05E8C17 /* Pods-Hompimpa_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hompimpa_Tests-dummy.m"; sourceTree = "<group>"; };
+		CFDB0CF8C24BCD4C3A089A34B6378B1A /* Pods-Hompimpa_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hompimpa_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D35DC7C6351119C196B6AAC23F3EDB5C /* Pods_Hompimpa_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hompimpa_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36A598F2D504B4D002F2F0F89EF62A1 /* Pods-Hompimpa_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hompimpa_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DE06FF9098A7341007DCAA4658E89015 /* Pods-Hompimpa_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hompimpa_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB723C67D4FD5A22132BCE9696519CC2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3EAD2CD21A7DAC2002A57AD /* Snooze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Snooze.swift; path = Hompimpa/Classes/Snooze.swift; sourceTree = "<group>"; };
+		F8C19E21408D8366A688E157C66F877B /* Pods-Hompimpa_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hompimpa_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19CABCB19A8E5F33D63C33832A70AB9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A546F7ADA9D5EF7889CF9A5C7BD39B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61C02C5F73FBC3B47D8591B1D091D118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE33824834E3223A030E52AEB6236796 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE02E45606EE5BDA278CDB33B890191 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14D2E7A349221C200AB85B70C89B429F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10B5694FA876D625B953BBAC61898FDF /* Hompimpa */ = {
+			isa = PBXGroup;
+			children = (
+				F3EAD2CD21A7DAC2002A57AD /* Snooze.swift */,
+				2A300D81FA93DC604A6344216C2E3FBE /* Pod */,
+				16DAB62C8868028025CB1654DA672E81 /* Support Files */,
+			);
+			name = Hompimpa;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		16DAB62C8868028025CB1654DA672E81 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AE40EA05D64DDA316FEB85CC814659D /* Hompimpa.modulemap */,
+				52F481191151117597BA8FB649C4A3F6 /* Hompimpa.xcconfig */,
+				A6C05C17FED14B645234C357B771B71A /* Hompimpa-dummy.m */,
+				6D4D61EF3F18270C49A4B166FBD1FB77 /* Hompimpa-prefix.pch */,
+				5D8278C069FE69851F8AE7778322D799 /* Hompimpa-umbrella.h */,
+				EB723C67D4FD5A22132BCE9696519CC2 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Hompimpa";
+			sourceTree = "<group>";
+		};
+		2A300D81FA93DC604A6344216C2E3FBE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0D84205D0269AF0737697FFB895EDF60 /* Hompimpa.podspec */,
+				7B080AA9AF97DFBE62A32E1362F1E32A /* LICENSE */,
+				3EBEDD45EE2B3176724731D696D19D56 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		532CFB4D900B0D479FC9A5CBA221E8B5 /* Pods-Hompimpa_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1B166F8F5FD0E595DEFB06359F514CC3 /* Info.plist */,
+				0478AD8DBB85E8131C64519531FEBF41 /* Pods-Hompimpa_Tests.modulemap */,
+				AC166EBEEAC51B151896BB57F5440A95 /* Pods-Hompimpa_Tests-acknowledgements.markdown */,
+				73BC273120A348CEC388D63D4AF02900 /* Pods-Hompimpa_Tests-acknowledgements.plist */,
+				CF19200A87E007B485498CC8E05E8C17 /* Pods-Hompimpa_Tests-dummy.m */,
+				C05B75C69618CA2AF5DCD9C50E136975 /* Pods-Hompimpa_Tests-frameworks.sh */,
+				3D3723C84EB2EF525C54CD33384D6B83 /* Pods-Hompimpa_Tests-resources.sh */,
+				3507E6C9CD37A12770FE3B27E19676DC /* Pods-Hompimpa_Tests-umbrella.h */,
+				CFDB0CF8C24BCD4C3A089A34B6378B1A /* Pods-Hompimpa_Tests.debug.xcconfig */,
+				2ECF957B7416179BA3E7D73D1A76F55C /* Pods-Hompimpa_Tests.release.xcconfig */,
+			);
+			name = "Pods-Hompimpa_Tests";
+			path = "Target Support Files/Pods-Hompimpa_Tests";
+			sourceTree = "<group>";
+		};
+		6C1D6A2679D7C416FA5D84D365109EA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27B3746BE28837778B6AC274DE3BB672 /* Hompimpa.framework */,
+				1DD91E964B74DC71F21D6E135B7959E7 /* Pods_Hompimpa_Example.framework */,
+				D35DC7C6351119C196B6AAC23F3EDB5C /* Pods_Hompimpa_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BF71FB018EA3C794903D7B4DD501B032 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6C1D6A2679D7C416FA5D84D365109EA4 /* Products */,
+				7DBF4C80321CC1A05534297948128E17 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DBF4C80321CC1A05534297948128E17 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3AA09754F366D27A74C1E052AD6BCCF /* Pods-Hompimpa_Example */,
+				532CFB4D900B0D479FC9A5CBA221E8B5 /* Pods-Hompimpa_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B3AA09754F366D27A74C1E052AD6BCCF /* Pods-Hompimpa_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1F492B04E45CD09BB6CAB57113A528B9 /* Info.plist */,
+				1DB8B17B4AB723412976F08355993AB3 /* Pods-Hompimpa_Example.modulemap */,
+				DE06FF9098A7341007DCAA4658E89015 /* Pods-Hompimpa_Example-acknowledgements.markdown */,
+				D36A598F2D504B4D002F2F0F89EF62A1 /* Pods-Hompimpa_Example-acknowledgements.plist */,
+				F8C19E21408D8366A688E157C66F877B /* Pods-Hompimpa_Example-dummy.m */,
+				A8DD760065C79F28FF72B030BCA69527 /* Pods-Hompimpa_Example-frameworks.sh */,
+				41E63991AAC28196A2789F602A071D7A /* Pods-Hompimpa_Example-resources.sh */,
+				A40EC9AA167FF800D2FD9D82F5B89EF7 /* Pods-Hompimpa_Example-umbrella.h */,
+				908DB1CD945D77B8DC2ADCA565ADF755 /* Pods-Hompimpa_Example.debug.xcconfig */,
+				27C48DACE9AF324568E3EEF13719A93E /* Pods-Hompimpa_Example.release.xcconfig */,
+			);
+			name = "Pods-Hompimpa_Example";
+			path = "Target Support Files/Pods-Hompimpa_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF71FB018EA3C794903D7B4DD501B032 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10B5694FA876D625B953BBAC61898FDF /* Hompimpa */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3F124A382CF1A997E6C60CD3468099A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF71A8EC73F5979DDAE58BCBF85E4E27 /* Hompimpa-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5285468C3C461A281DC4643C6FC315 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14F71555E369E58C06836C9C1E38508 /* Pods-Hompimpa_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5B4AD8E10865D1FA100875B7184B5B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A785F0180CD62E6EA8D4BC023A64CD3 /* Pods-Hompimpa_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		14721B0D8402E982B0E58249E79DC684 /* Hompimpa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6485DDEA4C7FFC75F0244B972AFCEAB7 /* Build configuration list for PBXNativeTarget "Hompimpa" */;
+			buildPhases = (
+				1E6531E8DBAD5599FC1D67A3E06AFE0D /* Sources */,
+				19CABCB19A8E5F33D63C33832A70AB9A /* Frameworks */,
+				3F124A382CF1A997E6C60CD3468099A0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hompimpa;
+			productName = Hompimpa;
+			productReference = 27B3746BE28837778B6AC274DE3BB672 /* Hompimpa.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		32DC5A29C7EEFCEC32ED985FF5F83C4F /* Pods-Hompimpa_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CCE848C06BB0BC051F7D01D314994C8 /* Build configuration list for PBXNativeTarget "Pods-Hompimpa_Tests" */;
+			buildPhases = (
+				91F5CB6B48E56361A909B4A81E0935EE /* Sources */,
+				8DE02E45606EE5BDA278CDB33B890191 /* Frameworks */,
+				BD5B4AD8E10865D1FA100875B7184B5B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE7642255F1F01505E15E5F2CFBC1B83 /* PBXTargetDependency */,
+			);
+			name = "Pods-Hompimpa_Tests";
+			productName = "Pods-Hompimpa_Tests";
+			productReference = D35DC7C6351119C196B6AAC23F3EDB5C /* Pods_Hompimpa_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7DD5755F332804257FB6DA5353DF8FB3 /* Pods-Hompimpa_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91A40F195667FA7987B598DF4EC1A461 /* Build configuration list for PBXNativeTarget "Pods-Hompimpa_Example" */;
+			buildPhases = (
+				CF9A80FC56380982A8759ECC2F52C52B /* Sources */,
+				61C02C5F73FBC3B47D8591B1D091D118 /* Frameworks */,
+				AE5285468C3C461A281DC4643C6FC315 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EA2972E21BDD23C7BF14F05E9EC3592 /* PBXTargetDependency */,
+			);
+			name = "Pods-Hompimpa_Example";
+			productName = "Pods-Hompimpa_Example";
+			productReference = 1DD91E964B74DC71F21D6E135B7959E7 /* Pods_Hompimpa_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1000;
+				TargetAttributes = {
+					14721B0D8402E982B0E58249E79DC684 = {
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6C1D6A2679D7C416FA5D84D365109EA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14721B0D8402E982B0E58249E79DC684 /* Hompimpa */,
+				7DD5755F332804257FB6DA5353DF8FB3 /* Pods-Hompimpa_Example */,
+				32DC5A29C7EEFCEC32ED985FF5F83C4F /* Pods-Hompimpa_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E6531E8DBAD5599FC1D67A3E06AFE0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF82E8C64D8DBDF004C106C25E53352 /* Hompimpa-dummy.m in Sources */,
+				F3EAD2CE21A7DAC2002A57AD /* Snooze.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F5CB6B48E56361A909B4A81E0935EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6B1A42A8AD26D535D3A24DC34D6B6B /* Pods-Hompimpa_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9A80FC56380982A8759ECC2F52C52B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA27335B14A400F39FA0B7148E4A4EC /* Pods-Hompimpa_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EA2972E21BDD23C7BF14F05E9EC3592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Hompimpa;
+			target = 14721B0D8402E982B0E58249E79DC684 /* Hompimpa */;
+			targetProxy = A568B0B3CB05AA97F9981F5BC554B72C /* PBXContainerItemProxy */;
+		};
+		DE7642255F1F01505E15E5F2CFBC1B83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Hompimpa_Example";
+			target = 7DD5755F332804257FB6DA5353DF8FB3 /* Pods-Hompimpa_Example */;
+			targetProxy = 61D4ECC920BECCE3FAC8265DAF0088EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15126EED6311C84834C6BC6141CC53B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52F481191151117597BA8FB649C4A3F6 /* Hompimpa.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hompimpa/Hompimpa-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hompimpa/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Hompimpa/Hompimpa.modulemap";
+				PRODUCT_MODULE_NAME = Hompimpa;
+				PRODUCT_NAME = Hompimpa;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5AD8FB185572AFE1B33C7453CF38B31E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27C48DACE9AF324568E3EEF13719A93E /* Pods-Hompimpa_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Hompimpa_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hompimpa_Example/Pods-Hompimpa_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		808541EDAEECAEEE2AE798AABAB893AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 908DB1CD945D77B8DC2ADCA565ADF755 /* Pods-Hompimpa_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Hompimpa_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hompimpa_Example/Pods-Hompimpa_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A8AF6BBC4E03B910AD5CB7D8FD54A56E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ECF957B7416179BA3E7D73D1A76F55C /* Pods-Hompimpa_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Hompimpa_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hompimpa_Tests/Pods-Hompimpa_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B297963A8D893DAE5E627C0CE2B9ACC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFDB0CF8C24BCD4C3A089A34B6378B1A /* Pods-Hompimpa_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Hompimpa_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hompimpa_Tests/Pods-Hompimpa_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FB0F3135F9E8F7D60AB218DBF53EEA3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52F481191151117597BA8FB649C4A3F6 /* Hompimpa.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hompimpa/Hompimpa-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hompimpa/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Hompimpa/Hompimpa.modulemap";
+				PRODUCT_MODULE_NAME = Hompimpa;
+				PRODUCT_NAME = Hompimpa;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CCE848C06BB0BC051F7D01D314994C8 /* Build configuration list for PBXNativeTarget "Pods-Hompimpa_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B297963A8D893DAE5E627C0CE2B9ACC0 /* Debug */,
+				A8AF6BBC4E03B910AD5CB7D8FD54A56E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6485DDEA4C7FFC75F0244B972AFCEAB7 /* Build configuration list for PBXNativeTarget "Hompimpa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15126EED6311C84834C6BC6141CC53B9 /* Debug */,
+				FB0F3135F9E8F7D60AB218DBF53EEA3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91A40F195667FA7987B598DF4EC1A461 /* Build configuration list for PBXNativeTarget "Pods-Hompimpa_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808541EDAEECAEEE2AE798AABAB893AE /* Debug */,
+				5AD8FB185572AFE1B33C7453CF38B31E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

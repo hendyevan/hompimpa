@@ -1,0 +1,16 @@
+PODS:
+  - Hompimpa (0.1.0)
+
+DEPENDENCIES:
+  - Hompimpa (from `../`)
+
+EXTERNAL SOURCES:
+  Hompimpa:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Hompimpa: cc35b43ceed02f914336d6de3bcd3e8590318c10
+
+PODFILE CHECKSUM: 0aecb4062cbe7453dda4fb427fe4b2c9b7bffae6
+
+COCOAPODS: 1.5.3
