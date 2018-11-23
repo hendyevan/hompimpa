@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Hompimpa_Example' do
+  pod 'Hompimpa', :path => '../'
+
+  target 'Hompimpa_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
