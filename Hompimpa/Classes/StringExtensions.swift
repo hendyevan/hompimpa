@@ -1,5 +1,5 @@
 //
-//  String.swift
+//  StringExtensions.swift
 //  Hompimpa
 //
 //  Created by hendy evan on 26/11/18.
@@ -9,14 +9,14 @@ import Foundation
 import SwiftyRSA
 
 extension String {
-    var isBlank: Bool {
+    public var isBlank: Bool {
         get {
             let trimmed = self.trimmingCharacters(in: .whitespacesAndNewlines)
             return trimmed.isEmpty
         }
     }
     
-    var isValidEmail: Bool {
+    public var isValidEmail: Bool {
         do {
             let regex = try NSRegularExpression(pattern: "^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$", options: .caseInsensitive)
             return regex.firstMatch(in: self, options: NSRegularExpression.MatchingOptions(rawValue: 0), range: NSMakeRange(0, self.count)) != nil
@@ -34,39 +34,39 @@ extension String {
     //        }
     //    }
     
-    var isValidPhoneNo: Bool {
-        let character  = NSCharacterSet(charactersIn: Constant.numberCharacter).inverted
-        var filtered: String
-        let inputString: [String] = self.components(separatedBy: character)
-        filtered = inputString.joined(separator: "")
-        return self == filtered
-    }
+//    var isValidPhoneNo: Bool {
+//        let character  = NSCharacterSet(charactersIn: Constant.numberCharacter).inverted
+//        var filtered: String
+//        let inputString: [String] = self.components(separatedBy: character)
+//        filtered = inputString.joined(separator: "")
+//        return self == filtered
+//    }
     
 //    var isValidPassword: Bool {
 //        return count >= 6
 //    }
-//
-    var isContainSymbol: Bool {
-        let cs = CharacterSet(charactersIn: Constant.noSymbolCharacter).inverted
-        let filtered: String = (self.components(separatedBy: cs) as NSArray).componentsJoined(by: "")
-        return (self == filtered)
-    }
     
-    var appVersion:String {
+//    var isContainSymbol: Bool {
+//        let cs = CharacterSet(charactersIn: Constant.noSymbolCharacter).inverted
+//        let filtered: String = (self.components(separatedBy: cs) as NSArray).componentsJoined(by: "")
+//        return (self == filtered)
+//    }
+    
+    public var appVersion:String {
         guard let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String else {
             return "no version info"
         }
         return "Version: \(version)"
     }
     
-    func encrypt() -> String {
+    public func encrypt(_ publicKey: String) -> String {
         var encrypted = ""
         do {
-            let publicKey = try PublicKey(pemEncoded: Constant.publicKey)
+            let publicKey = try PublicKey(pemEncoded: publicKey)
             let clear = try ClearMessage(string: self, using: .utf8)
             encrypted = try clear.encrypted(with: publicKey, padding: .PKCS1).base64String
         }catch {
-            let error = NSError(domain: Constant.domain, code: -1, userInfo: [NSLocalizedDescriptionKey: "Encryption failed!"])
+            let error = NSError(domain: "Hompimpa", code: -1, userInfo: [NSLocalizedDescriptionKey: "Encryption failed!"])
             print(error.localizedDescription)
         }
         
@@ -90,14 +90,30 @@ extension String {
         return self.index(startIndex, offsetBy: from)
     }
     
-    func substring(_ r: Range<Int>) -> String {
+    //    func substring(from: Int) -> String {
+    //        let fromIndex = index(from: from)
+    //        return substring(from: fromIndex)
+    //    }
+    //
+    //    func substring(to: Int) -> String {
+    //        let toIndex = index(from: to)
+    //        return substring(to: toIndex)
+    //    }
+    //
+    //    func substring(with r: Range<Int>) -> String {
+    //        let startIndex = index(from: r.lowerBound)
+    //        let endIndex = index(from: r.upperBound)
+    //        return substring(with: startIndex..<endIndex)
+    //    }
+    
+    public func substring(_ r: Range<Int>) -> String {
         let fromIndex = self.index(self.startIndex, offsetBy: r.lowerBound)
         let toIndex = self.index(self.startIndex, offsetBy: r.upperBound)
         let indexRange = Range<String.Index>(uncheckedBounds: (lower: fromIndex, upper: toIndex))
         return String(self[indexRange])
     }
     
-    func birthDateFormat() -> String {
+    public func birthDateFormat() -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
         dateFormatter.locale = Locale(identifier: "id_ID")
@@ -110,7 +126,7 @@ extension String {
         return dateFormatter.string(from: date)
     }
     
-    func dateToString(date:Date) -> String{
+    public func dateToString(date:Date) -> String{
         struct Formatter {
             static var format: DateFormatter = { () -> DateFormatter in
                 let format: DateFormatter = DateFormatter()
@@ -124,7 +140,7 @@ extension String {
     }
     
     
-    func stringToDate() -> Date {
+    public func stringToDate() -> Date {
         struct Formatter {
             static var format: DateFormatter = { () -> DateFormatter in
                 let format: DateFormatter = DateFormatter()
@@ -138,7 +154,7 @@ extension String {
         return Formatter.format.date(from: self)! as Date
     }
     
-    func hourToString() -> String{
+    public func hourToString() -> String{
         
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
@@ -150,7 +166,7 @@ extension String {
         return dateString
     }
     
-    func yearToString() -> String{
+    public func yearToString() -> String{
         
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
@@ -162,7 +178,7 @@ extension String {
         return dateString
     }
     
-    func dateTimeToStringDate() -> String{
+    public func dateTimeToStringDate() -> String{
         
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
@@ -174,7 +190,7 @@ extension String {
         return dateString
     }
     
-    func toInt() -> Int {
+    public func toInt() -> Int {
         if let n = Int(self.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)) {
             return n
         } else {
@@ -182,7 +198,7 @@ extension String {
         }
     }
     
-    func slotTimeFormat() -> String? {
+    public func slotTimeFormat() -> String? {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
         dateFormatter.locale = Locale(identifier: "id_ID")
@@ -193,7 +209,7 @@ extension String {
         return dateFormatter.string(from: date)
     }
     
-    func getDayOfWeek() -> Int? {
+    public func getDayOfWeek() -> Int? {
         
         let dateFormatter  = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
@@ -205,7 +221,7 @@ extension String {
         return weekDay
     }
     
-    func toDateTimeJsonFormat() -> Date{
+    public func toDateTimeJsonFormat() -> Date{
         
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
@@ -215,7 +231,7 @@ extension String {
         return date
     }
     
-    func toDateJsonFormat() -> Date {
+    public func toDateJsonFormat() -> Date {
         
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
@@ -233,7 +249,7 @@ extension String {
         return newDate
     }
     
-    func dateTimeToDate() -> String? {
+    public func dateTimeToDate() -> String? {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
         dateFormatter.locale = Locale(identifier: "id_ID")
@@ -244,7 +260,7 @@ extension String {
         return dateFormatter.string(for: date)
     }
     
-    var html2AttributedString: NSAttributedString? {
+    public var html2AttributedString: NSAttributedString? {
         do {
             return try NSAttributedString(data: Data(utf8),
                                           options: [.documentType: NSAttributedString.DocumentType.html,
@@ -256,7 +272,7 @@ extension String {
         }
     }
     
-    var html2String: String {
+    public var html2String: String {
         return html2AttributedString?.string ?? ""
     }
 }

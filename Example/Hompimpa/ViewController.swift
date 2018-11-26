@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import Hompimpa
 
 class ViewController: UIViewController {
 
+    var stringEmpty: String?
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+//        stringEmpty.
+        stringEmpty?.appVersion
+        "".appVersion
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,4 +27,3 @@ class ViewController: UIViewController {
     }
 
 }
-

@@ -36,9 +36,7 @@
 		CE65AAC51FD108CB843C4B61A2037E24 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EEA710B151E240B6A0A07BEB21869E /* Security.framework */; };
 		DD01723A0459748599BD1B667200C3F2 /* Pods-Hompimpa_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C19E21408D8366A688E157C66F877B /* Pods-Hompimpa_Example-dummy.m */; };
 		DD8CDCA8AFC170D39504B57B9317B6DF /* Signature.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA93DA96030137DAB3F5666C4AA7F00 /* Signature.swift */; };
-		F3FA7BAE21ABCAFD00CB70CA /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FA7BAD21ABCAFD00CB70CA /* String.swift */; };
-		F3FA7BAF21ABCAFD00CB70CA /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FA7BAD21ABCAFD00CB70CA /* String.swift */; };
-		F3FA7BB021ABCAFD00CB70CA /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FA7BAD21ABCAFD00CB70CA /* String.swift */; };
+		F3FA7BB621ABE0FC00CB70CA /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FA7BB521ABE0FC00CB70CA /* StringExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,7 +123,7 @@
 		DECB2FE4D335E925BCBEF27EB3F54DC9 /* SwiftyRSA-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyRSA-prefix.pch"; sourceTree = "<group>"; };
 		E38DFF1312FFD28262E1A6A44B4FE70A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E4EEA710B151E240B6A0A07BEB21869E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		F3FA7BAD21ABCAFD00CB70CA /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		F3FA7BB521ABE0FC00CB70CA /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = Hompimpa/Classes/StringExtensions.swift; sourceTree = "<group>"; };
 		F8C19E21408D8366A688E157C66F877B /* Pods-Hompimpa_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hompimpa_Example-dummy.m"; sourceTree = "<group>"; };
 		FAA2FFF00262B334FA2EC7C6E70F3959 /* SwiftyRSA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyRSA-dummy.m"; sourceTree = "<group>"; };
 		FADB7729F99DFF61F5B1F57F573B7A12 /* Hompimpa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hompimpa-dummy.m"; sourceTree = "<group>"; };
@@ -223,10 +221,10 @@
 		75BD41E4D9CBEA0D2DFEED3F448CB157 /* Hompimpa */ = {
 			isa = PBXGroup;
 			children = (
-				F3FA7BAC21ABCAE500CB70CA /* Extension */,
 				8709A4852E8093041E8834E6703DA338 /* Snooze.swift */,
 				8648AEE175203DD91EBC89EC244CC4DC /* Pod */,
 				A5B349780F0F5315CEC906D069E53EB2 /* Support Files */,
+				F3FA7BB521ABE0FC00CB70CA /* StringExtensions.swift */,
 			);
 			name = Hompimpa;
 			path = ../..;
@@ -352,14 +350,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SwiftyRSA";
-			sourceTree = "<group>";
-		};
-		F3FA7BAC21ABCAE500CB70CA /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				F3FA7BAD21ABCAFD00CB70CA /* String.swift */,
-			);
-			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -516,7 +506,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3FA7BAF21ABCAFD00CB70CA /* String.swift in Sources */,
 				DD01723A0459748599BD1B667200C3F2 /* Pods-Hompimpa_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -545,7 +534,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3FA7BB021ABCAFD00CB70CA /* String.swift in Sources */,
 				BC6B1A42A8AD26D535D3A24DC34D6B6B /* Pods-Hompimpa_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -554,7 +542,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3FA7BAE21ABCAFD00CB70CA /* String.swift in Sources */,
+				F3FA7BB621ABE0FC00CB70CA /* StringExtensions.swift in Sources */,
 				A012FF8380AD4F3B0D82409F01A87D65 /* Hompimpa-dummy.m in Sources */,
 				9B0621E7D3BA425D6AE98935967E24AD /* Snooze.swift in Sources */,
 			);
