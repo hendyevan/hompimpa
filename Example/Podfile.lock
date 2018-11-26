@@ -1,16 +1,25 @@
 PODS:
-  - Hompimpa (0.1.0)
+  - Hompimpa (0.1.0):
+    - SwiftyRSA
+  - SwiftyRSA (1.5.0):
+    - SwiftyRSA/ObjC (= 1.5.0)
+  - SwiftyRSA/ObjC (1.5.0)
 
 DEPENDENCIES:
   - Hompimpa (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftyRSA
 
 EXTERNAL SOURCES:
   Hompimpa:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Hompimpa: cc35b43ceed02f914336d6de3bcd3e8590318c10
+  Hompimpa: e92f6544c717c49ba07f4d84173e716371a88861
+  SwiftyRSA: 6e528fb1b1a87d5111c48081083b141d6d65f1cf
 
-PODFILE CHECKSUM: 0aecb4062cbe7453dda4fb427fe4b2c9b7bffae6
+PODFILE CHECKSUM: 6dc92042bf4805a535af89fadafd71f10e2149f9
 
 COCOAPODS: 1.5.3

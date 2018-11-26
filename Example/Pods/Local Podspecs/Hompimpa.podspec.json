@@ -1,22 +1,28 @@
 {
   "name": "Hompimpa",
   "version": "0.1.0",
-  "summary": "A short description of Hompimpa.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Fabianus Hendy Evan/Hompimpa",
+  "summary": "This is a pod library to testing create pod library in github.",
+  "description": "This is a pod library to testing create pod library in github. feel free to enjoy it to the fullest",
+  "homepage": "https://github.com/hendyevan/hompimpa",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Fabianus Hendy Evan": "fabianus.hendyevan@ai.astra.co.id"
+    "Hendy Evan": "hendyevan@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Fabianus Hendy Evan/Hompimpa.git",
+    "git": "https://github.com/hendyevan/hompimpa.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "Hompimpa/Classes/**/*"
+  "source_files": "Hompimpa/Classes/**/*",
+  "swift_version": "4.2",
+  "dependencies": {
+    "SwiftyRSA": [
+
+    ]
+  }
 }
