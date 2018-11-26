@@ -1,6 +1,6 @@
 # Hompimpa
 
-[![CI Status](https://travis-ci.org/hendyevan/hompimpa.svg?branch=master)
+![CI Status](https://travis-ci.org/hendyevan/hompimpa.svg?branch=master)
 [![Version](https://img.shields.io/cocoapods/v/Hompimpa.svg?style=flat)](https://cocoapods.org/pods/Hompimpa)
 [![License](https://img.shields.io/cocoapods/l/Hompimpa.svg?style=flat)](https://cocoapods.org/pods/Hompimpa)
 [![Platform](https://img.shields.io/cocoapods/p/Hompimpa.svg?style=flat)](https://cocoapods.org/pods/Hompimpa)
