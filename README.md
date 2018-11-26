@@ -1,6 +1,6 @@
 # Hompimpa
 
-[![CI Status](https://img.shields.io/travis/Fabianus Hendy Evan/Hompimpa.svg?style=flat)](https://travis-ci.org/Fabianus Hendy Evan/Hompimpa)
+![CI Status](https://travis-ci.org/hendyevan/hompimpa.svg?branch=master)
 [![Version](https://img.shields.io/cocoapods/v/Hompimpa.svg?style=flat)](https://cocoapods.org/pods/Hompimpa)
 [![License](https://img.shields.io/cocoapods/l/Hompimpa.svg?style=flat)](https://cocoapods.org/pods/Hompimpa)
 [![Platform](https://img.shields.io/cocoapods/p/Hompimpa.svg?style=flat)](https://cocoapods.org/pods/Hompimpa)
@@ -22,7 +22,7 @@ pod 'Hompimpa'
 
 ## Author
 
-Fabianus Hendy Evan, fabianus.hendyevan@ai.astra.co.id
+Hendy Evan, hendyevan@gmail.com
 
 ## License
 
