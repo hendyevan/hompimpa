@@ -22,7 +22,7 @@ pod 'Hompimpa'
 
 ## Author
 
-Fabianus Hendy Evan, fabianus.hendyevan@ai.astra.co.id
+Hendy Evan, hendyevan@gmail.com
 
 ## License
 
